@@ -1,0 +1,38 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+.box {
+	display: flex;
+	flex-flow: column;
+  	height: 100%;
+  	font-family: Helvetica, Arial, sans-serif;
+}
+.box .row.header {
+	flex-grow: 0,
+	flex-shrink: 1,
+	flex-basis: auto;
+}
+.bt{
+	position: relative;
+	display: inline-block;
+	background-color: #3B5998;
+	padding: 1% 1% 1% 1%;
+	color:#fff;
+}
+.bt:hover{
+	background-color: #355089;
+}
+.inbx{
+	padding: 0.5% 0% 0.5% 0%;
+	float: right;
+	text-align: right;
+    width: 22%;
+    position: absolute;
+    right: 0px;
+    background-color: #3B5998;
+    min-width: 100%;
+}
+.scbt{
+	margin-right: 16%;
+}

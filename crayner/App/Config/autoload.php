@@ -1,0 +1,6 @@
+<?php
+/**
+*
+*		Crayner Autoloader
+*
+*/

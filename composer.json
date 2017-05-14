@@ -1,0 +1,21 @@
+{
+    "name": "ammarfaizi2/racf",
+    "description": "Crayner Framework",
+    "type": "Project",
+    "license": "RedAngel PHP Concept",
+    "authors": [
+        {
+            "name": "Ammar Faizi",
+            "email": "ammarfaizi2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "App": "crayner/",
+            "Console": "crayner/",
+            "System": "crayner/"
+        }
+    }
+}
